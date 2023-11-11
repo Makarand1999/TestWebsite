@@ -1,0 +1,241 @@
+.mainContainer {
+    /* height:800px;
+    width: 400px; */
+    border-radius: 0px 15px;
+    background: #FFF;
+    border: 1px solid red;
+    align-items: center;
+}
+
+.subDiv {
+    width: 314px;
+    height: 75px;
+    flex-shrink: 0;
+    border-radius: 9px;
+    background: linear-gradient(96deg, #0037C5 8.58%, #08005F 102.54%);
+    display: flex;
+}
+
+.textDiv {
+    width: 197px;
+    height: 24px;
+    flex-shrink: 0;
+    color: #FFF;
+
+    font-family: Quicksand;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.btnDIv {
+    /* color: #FFF;
+text-align: center;
+font-family: Quicksand;
+font-size: 13px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: capitalize;
+width: 105px;
+height: 24px;
+flex-shrink: 0; */
+}
+
+/* Second Div css start */
+.Subdiv2 {
+    /* width: 314px; */
+    height: 259px;
+    flex-shrink: 0;
+    border-radius: 9px;
+    background: #F6F6F6;
+    padding: 10px;
+}
+
+.subdiv2_btnMainDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subdiv2_btnMainDiv div {
+    width: 69.755px;
+    height: 35.443px;
+    flex-shrink: 0;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+.Subdiv2_Btn1 {
+    border-radius: 50px;
+    background: linear-gradient(94deg, #FF8412 22.44%, #FF8412 22.45%, #B1008A 124.46%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.subdiv2_doctersInfo {
+    display: flex;
+    padding: 30px 0 30px 0;
+}
+
+.docterImage {
+    width: 75.515px;
+    height: 75.515px;
+    flex-shrink: 0;
+    border-radius: 75.515px;
+    background: url('../Assets/btns.png'), lightgray 50% / cover no-repeat;
+}
+
+.subdiv2_doctersContentLine1 {
+    color: #000;
+    font-family: Quicksand;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    width: 187px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.subdiv2_doctersContentLine1 {
+    width: 200px;
+    height: 24px;
+    flex-shrink: 0;
+    color: #E97000;
+
+    font-family: Quicksand;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.subdiv2_doctersContentLine1 {
+    width: 187px;
+    height: 24px;
+    flex-shrink: 0;
+    color: #000;
+
+    font-family: Quicksand;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.subdiv2_btnBottomDiv {
+    width: 139.351px;
+    height: 24px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+.subdiv2_btnBottomDiv>div {
+    height: 43px;
+    width: 95px;
+    padding-left: 9px;
+    font-size: 12px;
+    align-items: center;
+    display: flex;
+    color: #F6F6F6;
+}
+.subdiv2_btnBottomDiv span{
+    padding-left: 6px;
+}
+.subdiv2_btnBottomDiv1 {
+    background: url('../Assets/Group 59.png');
+    width: 95px;
+    height: 43px;
+    flex-shrink: 0;
+    align-items: center;
+
+}
+
+.subdiv2_btnBottomDiv2 {
+    background: url('../Assets/Group 59.png');
+    width: 95px;
+    height: 43px;
+    flex-shrink: 0;
+    align-items: center;
+
+}
+.subdiv2_btnBottomDiv2 span{
+    padding-left: 13px!important;
+}
+
+.subdiv2_btnBottomDiv3 {
+    width: 89px;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 27px;
+    border: 1px solid #999;
+    align-items: center;
+    background: rgba(216, 216, 216, 0.00);
+    height: 36px!important;
+    margin-top: 6px;
+
+}
+
+.backBtn{
+    /* width: 319.878px; */
+height: 46.667px;
+flex-shrink: 0;
+border-radius: 50px;
+background: linear-gradient(94deg, #F1F1F1 22.44%, #F1F1F1 124.46%);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.backBtn span{
+    width: 139.351px;
+height: 24px;
+flex-shrink: 0;
+color: #000;
+text-align: center;
+font-family: Quicksand;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+}
+
+.header{
+    /* width: 314px; */
+height: 75px;
+flex-shrink: 0;
+border-radius: 9px;
+background: linear-gradient(96deg, #0037C5 8.58%, #08005F 102.54%);
+display: flex;
+align-items: center;
+margin-bottom: 15px;
+justify-content: space-around;
+}
+.textDiv{
+    width: 197px;
+height: 24px;
+flex-shrink: 0;
+color: #FFF;
+
+font-family: Quicksand;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+}
+.BookNowBtn{
+    width: 86.696px;
+height: 35.443px;
+flex-shrink: 0;
+border-radius: 50px;
+border: 1px solid #FFF;
+background: linear-gradient(83deg, #FF8412 -30.08%, #D23758 60.11%, #B1008A 97.49%);
+}
