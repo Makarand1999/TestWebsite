@@ -1,6 +1,7 @@
 import React from 'react'
 import './View.css'
 import arrow from '../Assets/arrow.png';
+import view from '../Assets/carbon_view.png';
 const View = () => {
   return (
     <section className='body'>
@@ -47,7 +48,7 @@ const View = () => {
             <div className='Last_Section_Card_Btn'>
                     <div className='Card_Btn_1'>Reschedule</div>
                     <div className='Card_Btn_2'>Cansel</div>
-                    <div className='Card_Btn_3'>View</div>
+                    <div className='Card_Btn_3'><img src={view} style={{margin:"0 5px 0 0"}}/>View</div>
                 </div>
 
         </div>
@@ -78,7 +79,7 @@ const View = () => {
             <div className='Last_Section_Card_Btn'>
                     <div className='Card_Btn_1'>Reschedule</div>
                     <div className='Card_Btn_2'>Cansel</div>
-                    <div className='Card_Btn_3'>View</div>
+                    <div className='Card_Btn_3'><img style={{margin:"0 5px 0 0"}}src={view} />View</div>
                 </div>
 
         </div>
